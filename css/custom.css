@@ -1,0 +1,70 @@
+.buy-wrapper{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+p{
+    margin:0;
+    padding:0;
+}
+.input-box-new{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    width: 70%;
+    outline: none;
+}
+.buy-token{
+    height: auto;
+    min-width:80%;
+    width:80%;
+    background-color: rgba(19, 21, 25,0.4);
+    padding: 20px 0px;
+    border-radius: 20px;
+}
+.buy-token-new{
+    height: auto;
+    min-width:80%;
+    width:80%;
+    background-color: rgba(19, 21, 25,0.8);
+    padding: 20px 0px;
+    border-radius: 20px;
+}
+.flex-center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 700px) {
+    .buy-token{
+        height: auto;
+        min-width:95%;
+        width:95%;
+        background-color: rgba(19, 21, 25,0.4);
+        padding: 20px 5px;
+        border-radius: 20px;
+    }
+    .input-box-new{
+        padding: 5px 30px;
+        border-radius: 20px;
+        border: none;
+        width: 95%;
+        outline: none;
+    }
+    .buy-token-new{
+        height: auto;
+        min-width:95%;
+        width:95%;
+        background-color: rgba(19, 21, 25,0.8);
+        padding: 20px 5px;
+        border-radius: 20px;
+    }
+
+}
